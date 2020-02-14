@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:2,ChocoType:0b,Choco:1b,display:{Name:\"{\\\"text\\\":\\\"義理チョコ\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
