@@ -31,6 +31,6 @@
         }
     },
     "rewards": {
-        "function": "ms:choco/pillage"
+        "function": "ms:material/pillage"
     }
 }
