@@ -1,7 +1,7 @@
 gamemode adventure @a[tag=!NoPlay]
-team empty HaveMateriallate
+team empty HaveMaterial
 team empty Player
-tag @e[tag=materiallateCandidate] remove spawnMaterial
+tag @e[tag=MaterialCandidate] remove spawnMaterial
 clear @a
 effect clear @a
 kill @e[type=item]

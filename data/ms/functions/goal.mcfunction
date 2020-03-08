@@ -12,7 +12,7 @@ execute if score $MaterialSpawnCount Global matches 1.. run tellraw @a [{"text":
 execute if score $MaterialSpawnCount Global matches 1.. run effect clear @a[gamemode=adventure]
 execute if score $MaterialSpawnCount Global matches 1.. run kill @e[type=item]
 execute if score $MaterialSpawnCount Global matches 1.. run clear @a[gamemode=adventure]
-execute if score $MaterialSpawnCount Global matches 1.. run tag @e[tag=materiallateCandidate] remove materialSpawn
+execute if score $MaterialSpawnCount Global matches 1.. run tag @e[tag=MaterialCandidate] remove materialSpawn
 execute if score $MaterialSpawnCount Global matches 1.. run scoreboard players set $GameTime Global 0
-execute if score $MaterialSpawnCount Global matches 1.. as @e[sort=random,limit=15,tag=materiallateCandidate] run function ms:material/spawn_dummy
-execute if score $MaterialSpawnCount Global matches 1.. as @e[sort=random,limit=1,tag=materiallateCandidate,tag=!spawnMaterial] run function ms:material/spawn_loop
+execute if score $MaterialSpawnCount Global matches 1.. as @e[sort=random,limit=15,tag=MaterialCandidate] run function ms:material/spawn_dummy
+execute if score $MaterialSpawnCount Global matches 1.. as @e[sort=random,limit=1,tag=MaterialCandidate,tag=!spawnMaterial] run function ms:material/spawn_loop

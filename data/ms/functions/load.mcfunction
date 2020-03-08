@@ -1,17 +1,17 @@
-#define tag materiallateCandidate
+#define tag MaterialCandidate
 scoreboard objectives add Global dummy {"text":"global"}
 scoreboard objectives add ClearCount dummy {"text":"消去"}
-scoreboard objectives add DropMateriallate minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
+scoreboard objectives add DropMaterial minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
 scoreboard objectives add Random dummy {"text":"乱数生成"}
 scoreboard players set $Rand_X Random 1
 scoreboard players set $Rand_A Random 48271
 scoreboard players set $Rand_M Random 2147483647
 
-team add HaveMateriallate
+team add HaveMaterial
 team add Player
-team modify HaveMateriallate color gold
+team modify HaveMaterial color gold
 team modify Player color white
-team modify HaveMateriallate prefix {"text":"リア充の","color":"gold"}
+team modify HaveMaterial prefix {"text":"リア充の","color":"gold"}
 team modify Player prefix {"text":""}
 
 scoreboard objectives add Const dummy {"text":"定数"}
