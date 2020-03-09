@@ -11,7 +11,7 @@ team add HaveMaterial
 team add Player
 team modify HaveMaterial color gold
 team modify Player color white
-team modify HaveMaterial prefix {"text":"リア充の","color":"gold"}
+team modify HaveMaterial prefix {"text":""}
 team modify Player prefix {"text":""}
 
 scoreboard objectives add Const dummy {"text":"定数"}

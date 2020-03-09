@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": "onPickupItem",
+        "description": "",
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "background": "minecraft:textures/block/quartz_block_top.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "onPickupItem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar",
+                        "nbt": "{SpawnMaterialType:0b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ms:material/get/low-grade"
+    }
+}

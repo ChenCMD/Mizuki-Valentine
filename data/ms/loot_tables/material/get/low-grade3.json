@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:3,Material:1b,MaterialType:0b,display:{Name:\"{\\\"text\\\":\\\"${3:lowGradeMatName}\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

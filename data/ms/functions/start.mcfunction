@@ -12,5 +12,6 @@ schedule function ms:countdown 4s append
 schedule function ms:countdown 5s append
 schedule function ms:countdown 6s append
 
-execute as @e[limit=15,tag=MaterialCandidate,sort=random] run function ms:material/spawn_dummy
-execute as @e[tag=!spawnMaterial,limit=1,tag=MaterialCandidate,sort=random] run function ms:material/spawn_loop
+scoreboard players operation $lowMatSpawnCount Global = $setting.lowMatSpawnCount Global
+execute as @e[limit=1,tag=MaterialCandidate,sort=random] at @s run function ms:material/spawn/high-grade
+execute if score $lowMatSpawnCount Global matches 1.. as @e[tag=!alreadySpawn,limit=1,tag=MaterialCandidate,sort=random] at @s run function ms:material/spawn/low-grade

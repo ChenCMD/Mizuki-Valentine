@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1,MaterialType:0b,Material:1b,display:{Name:\"{\\\"text\\\":\\\"友チョコ\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
+                            "tag": "{CustomModelData:1,Material:1b,MaterialType:0b,display:{Name:\"{\\\"text\\\":\\\"${1:lowGradeMatName}\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
                         }
                     ]
                 }
