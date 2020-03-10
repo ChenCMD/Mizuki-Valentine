@@ -1,6 +1,7 @@
 #define tag MaterialCandidate
+#define bossbar ms:timer
 scoreboard objectives add Global dummy {"text":"global"}
-scoreboard objectives add ClearCount dummy {"text":"消去"}
+scoreboard objectives add Point dummy {"text":"ポイント"}
 scoreboard objectives add DropMaterial minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
 scoreboard objectives add Random dummy {"text":"乱数生成"}
 scoreboard players set $Rand_X Random 1
@@ -13,6 +14,12 @@ team modify HaveMaterial color gold
 team modify Player color white
 team modify HaveMaterial prefix {"text":""}
 team modify Player prefix {"text":""}
+
+bossbar add ms:timer {"text":"残り時間"}
+bossbar set ms:timer style notched_6
+bossbar set ms:timer players
+bossbar set ms:timer color green
+bossbar set ms:timer max 360
 
 scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard players set $1 Const 1

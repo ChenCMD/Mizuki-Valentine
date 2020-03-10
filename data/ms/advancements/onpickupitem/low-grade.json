@@ -3,7 +3,7 @@
         "title": "onPickupItem",
         "description": "",
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "item": "minecraft:iron_sword"
         },
         "background": "minecraft:textures/block/quartz_block_top.png",
         "frame": "task",
@@ -23,8 +23,5 @@
                 ]
             }
         }
-    },
-    "rewards": {
-        "function": "ms:material/get/low-grade"
     }
 }
