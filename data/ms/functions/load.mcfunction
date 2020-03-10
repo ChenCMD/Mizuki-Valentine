@@ -19,7 +19,7 @@ bossbar add ms:timer {"text":"残り時間"}
 bossbar set ms:timer style notched_6
 bossbar set ms:timer players
 bossbar set ms:timer color green
-bossbar set ms:timer max 360
+bossbar set ms:timer max 180
 
 scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard players set $1 Const 1

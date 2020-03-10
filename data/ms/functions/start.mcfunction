@@ -17,3 +17,4 @@ schedule function ms:countdown 6s append
 
 schedule function ms:timer/main 6s replace
 function ms:material/spawn/spawn
+execute as @e[tag=!alreadySpawn,limit=1,tag=MaterialCandidate,sort=random] at @s run function ms:material/spawn/high-grade
