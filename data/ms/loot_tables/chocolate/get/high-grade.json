@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:5,SpawnMaterialType:1b,nowDrop:1b}"
+                            "tag": "{CustomModelData:0,Chocolate:1b,ChocolateType:1b,display:{Name:\"{\\\"text\\\":\\\"${0:highGradeChocoName}\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
                         }
                     ]
                 }

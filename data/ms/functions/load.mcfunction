@@ -1,18 +1,18 @@
-#define tag MaterialCandidate
+#define tag ChocolateCandidate
 #define bossbar ms:timer
 scoreboard objectives add Global dummy {"text":"global"}
 scoreboard objectives add Point dummy {"text":"ポイント"}
-scoreboard objectives add DropMaterial minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
+scoreboard objectives add DropChocolate minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
 scoreboard objectives add Random dummy {"text":"乱数生成"}
 scoreboard players set $Rand_X Random 1
 scoreboard players set $Rand_A Random 48271
 scoreboard players set $Rand_M Random 2147483647
 
-team add HaveMaterial
+team add HaveChocolate
 team add Player
-team modify HaveMaterial color gold
+team modify HaveChocolate color gold
 team modify Player color white
-team modify HaveMaterial prefix {"text":""}
+team modify HaveChocolate prefix {"text":""}
 team modify Player prefix {"text":""}
 
 bossbar add ms:timer {"text":"残り時間"}

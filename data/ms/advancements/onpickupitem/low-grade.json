@@ -18,7 +18,7 @@
                 "items": [
                     {
                         "item": "minecraft:sugar",
-                        "nbt": "{SpawnMaterialType:0b}"
+                        "nbt": "{SpawnChocolateType:0b}"
                     }
                 ]
             }

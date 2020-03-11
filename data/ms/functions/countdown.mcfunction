@@ -18,7 +18,7 @@ execute if score $countdown Global matches 1 run playsound ui.button.click ambie
 execute if score $countdown Global matches 1 run title @a times 0 20 0
 execute if score $countdown Global matches 1 run title @a title [{"text":"1","color":"gold","bold":true}]
 
-execute if score $countdown Global matches 0 run scoreboard players operation $MaterialGlowingTime Global *= $20 Const
+execute if score $countdown Global matches 0 run scoreboard players operation $ChocolateGlowingTime Global *= $20 Const
 execute if score $countdown Global matches 0 run scoreboard players set $isPlay Global 1
 execute if score $countdown Global matches 0 run playsound entity.ender_dragon.ambient ambient @a ~ ~ ~ 1 0.9 1
 execute if score $countdown Global matches 0 run title @a times 0 20 15
