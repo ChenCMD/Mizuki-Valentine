@@ -1,4 +1,4 @@
-schedule clear ms:end
+schedule clear ms:timer/main
 title @a times 0 30 30
 title @a title {"text":"GAME END","color":"red","bold":true}
 tellraw @a {"text":"ポイントを集計します...","color":"yellow"}
