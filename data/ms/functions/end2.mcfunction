@@ -26,3 +26,5 @@ tag @a remove Pointer3
 scoreboard players reset $1 Point
 scoreboard players reset $2 Point
 scoreboard players reset $3 Point
+
+schedule function ms:end3 100t

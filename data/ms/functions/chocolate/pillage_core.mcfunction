@@ -1,7 +1,7 @@
 tag @a[advancements={ms:ondamage=true}] add Target
 
 function ms:rng/generation
-scoreboard players operation @s Random %= $4 Const
+scoreboard players operation @s Random %= $setting.highGradeChocoDropRate Global
 
 execute if score @s Random matches 0 run clear @a[tag=Target] sugar{ChocolateType:1b} 1
 execute if score @s Random matches 0 run effect clear @a[tag=Target] glowing

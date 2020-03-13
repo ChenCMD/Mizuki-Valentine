@@ -1,5 +1,9 @@
 #define tag ChocolateCandidate
 #define bossbar ms:timer
+tag @e[tag=MaterialCandidate] add ChocolateCandidate
+tag @e[tag=MaterialCandidate] remove MaterialCandidate
+difficulty peaceful
+
 scoreboard objectives add Global dummy {"text":"global"}
 scoreboard objectives add Point dummy {"text":"ポイント"}
 scoreboard objectives add DropChocolate minecraft.dropped:minecraft.sugar {"text":"砂糖投げ検知"}
