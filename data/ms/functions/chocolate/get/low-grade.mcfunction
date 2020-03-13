@@ -1,9 +1,7 @@
 function ms:rng/generation
 scoreboard players operation @s Random %= $3 Const
 
-execute if score @s Random matches 0 run tellraw @s [{"text":"これは${1:lowGradeChocoName}だ...","color":"gold"}]
-execute if score @s Random matches 1 run tellraw @s [{"text":"これは${2:lowGradeChocoName}だ...","color":"gold"}]
-execute if score @s Random matches 2 run tellraw @s [{"text":"これは${3:lowGradeChocoName}だ...","color":"gold"}]
+tellraw @s [{"text":"これは普通のお返しチョコだ...","color":"gold"}]
 
 execute if score @s Random matches 0 run loot give @s loot ms:chocolate/get/low-grade1
 execute if score @s Random matches 1 run loot give @s loot ms:chocolate/get/low-grade2
