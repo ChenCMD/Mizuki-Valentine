@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:0,Chocolate:1b,ChocolateType:1b,display:{Name:\"{\\\"text\\\":\\\"普通のお返しチョコ\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
+                            "tag": "{CustomModelData:0,Chocolate:1b,ChocolateType:1b,display:{Name:\"{\\\"text\\\":\\\"高級なお返しチョコ\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"}}"
                         }
                     ]
                 }
